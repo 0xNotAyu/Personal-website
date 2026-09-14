@@ -185,7 +185,7 @@ a {
 .block {
   margin-top: var(--gap);
   padding-top: var(--gap);
-  border-top: 1px solid var(--color-border);
+  border-top: 2px solid var(--color-border);
 }
 
 .block h2 {
@@ -214,7 +214,7 @@ a {
    just shrunk to 1/8 width and centered */
 .node-divider {
   border: none;
-  border-top: 1px solid var(--color-border);
+  border-top: 2px solid var(--color-border);
   width: 12.5%;
   margin: 0 auto;
 }
@@ -222,9 +222,10 @@ a {
 .node-index {
   flex-shrink: 0;
   width: 1.5rem;
-  padding-top: 0.15rem;
+  padding-top: 0.025rem;
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 1rem;
+  /* font-size: 0.78rem; */
   color: var(--color-faint);
 }
 
