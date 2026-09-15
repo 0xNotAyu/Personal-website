@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aayush Sharma</title>
-  <meta name="description" content="CS student and AI intern building life-RPG productivity systems, RAG apps, and dev tooling. Based in Jaipur, India." />
+  <meta name="description" content="CS student building life-RPG productivity systems, RAG apps, and dev tooling. Based in Jaipur, India." />
   <meta name="theme-color" content="#161616" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,10 +18,9 @@
     <header class="site-header reveal" style="--d:0">
       <a class="prompt" href="#top">~/aayush <span class="chevron">❯</span></a>
       <nav class="nav">
-        <a href="#work">work</a>
         <a href="#projects">projects</a>
-        <a href="#quests">side quests</a>
-        <a href="#elsewhere">elsewhere</a>
+        <a href="#products">products</a>
+        <a href="#contact">contact</a>
       </nav>
     </header>
 
@@ -32,23 +31,10 @@
         <p class="tagline">
           <span id="typewriter"></span><span class="caret" aria-hidden="true"></span>
         </p>
-        <p class="sub">CS student. AI intern. I build things that turn ordinary routines into systems worth showing up for &mdash; from Jaipur, India.</p>
+        <p class="sub">CS student. I build things that turn ordinary routines into systems worth showing up for &mdash; from Jaipur, India.</p>
       </section>
 
-      <section id="work" class="block reveal" style="--d:2">
-        <h2>work</h2>
-        <div class="session">
-          <div class="node">
-            <span class="node-index">1</span>
-            <div class="node-body">
-              <p class="node-label">ai internship</p>
-              <p>Working as an AI intern while finishing a computer science degree &mdash; shipping features, debugging integrations, and learning how production AI systems actually behave.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="block reveal" style="--d:3">
+      <section id="projects" class="block reveal" style="--d:2">
         <h2>projects</h2>
 
         <div class="session">
@@ -60,7 +46,9 @@
                 <span class="status status-wip">IN PROGRESS</span>
               </div>
               <p>A life-RPG productivity app &mdash; goals and habits as a stat system, a daily agenda, and a no-failure-state design borrowed from the engagement loops of games like Zenless Zone Zero.</p>
-              <p class="stack">Next.js · Prisma · MongoDB · Better Auth</p>
+              <div class="node-foot">
+                <p class="stack">Next.js · Prisma · MongoDB · Better Auth</p>
+              </div>
             </div>
           </div>
 
@@ -74,7 +62,9 @@
                 <span class="status status-wip">IN PROGRESS</span>
               </div>
               <p>A NotebookLM-style research assistant with query rewriting, HyDE, and reciprocal rank fusion for retrieval, plus citation-linked PDF and YouTube sources.</p>
-              <p class="stack">MongoDB · Qdrant · OpenAI · Cloudinary</p>
+              <div class="node-foot">
+                <p class="stack">MongoDB · Qdrant · OpenAI · Cloudinary</p>
+              </div>
             </div>
           </div>
 
@@ -88,7 +78,9 @@
                 <span class="status status-shipped">PUBLISHED</span>
               </div>
               <p>A provider-agnostic TypeScript runtime for building agents &mdash; tool calling, guardrails, handoffs, memory, streaming, and tracing, published to npm.</p>
-              <p class="stack">TypeScript · npm</p>
+              <div class="node-foot">
+                <p class="stack">TypeScript · npm</p>
+              </div>
             </div>
           </div>
 
@@ -102,7 +94,9 @@
                 <span class="status status-wip">IN PROGRESS</span>
               </div>
               <p>Portfolio infrastructure for developers &mdash; GitHub sync, AI-written suggestions, and a public content API so a portfolio updates itself.</p>
-              <p class="stack">TypeScript</p>
+              <div class="node-foot">
+                <p class="stack">TypeScript</p>
+              </div>
             </div>
           </div>
 
@@ -116,7 +110,9 @@
                 <span class="status status-planned">SPECCED</span>
               </div>
               <p>An asynchronous chess desktop app, built for a friend group that never has an hour free at the same time.</p>
-              <p class="stack">Desktop</p>
+              <div class="node-foot">
+                <p class="stack">Desktop</p>
+              </div>
             </div>
           </div>
 
@@ -130,41 +126,46 @@
                 <span class="status status-wip">IN PROGRESS</span>
               </div>
               <p>A task tracker that treats work like a stack and a queue &mdash; tags, repeat and rollover rules, an archive for brain-dumps, and a stats screen.</p>
-              <p class="stack">Next.js · shadcn/ui</p>
+              <div class="node-foot">
+                <p class="stack">Next.js · shadcn/ui</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="quests" class="block reveal" style="--d:4">
-        <h2>side quests</h2>
+      <section id="products" class="block reveal" style="--d:3">
+        <h2>products</h2>
         <div class="session">
           <div class="node">
             <span class="node-index">1</span>
             <div class="node-body">
               <div class="node-head">
                 <h3>AyuDark</h3>
-                <span class="status status-shipped">BUILT</span>
+                <span class="status status-shipped">LIVE</span>
               </div>
-              <p>A browser extension that gives Medium a real dark mode &mdash; CSS token redirection, not the usual <code>filter: invert</code> hack.</p>
-              <p class="stack">Browser extension</p>
+              <p>A browser extension that gives Medium a real dark mode &mdash; CSS token redirection, not the usual <code>filter: invert</code> hack. Available on the Chrome Web Store.</p>
+              <div class="node-foot">
+                <p class="stack">Browser extension</p>
+                <a class="node-cta" href="https://chromewebstore.google.com/detail/ayudark-%E2%80%94-medium-dark-mod/llokkpcmiifpoonglfgacapfoojddiok?authuser=0&amp;hl=en-GB" target="_blank" rel="noopener noreferrer">View on Chrome Web Store</a>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="elsewhere" class="block reveal" style="--d:5">
-        <h2>elsewhere</h2>
+      <section id="contact" class="block reveal" style="--d:4">
+        <h2>contact</h2>
         <div class="links">
           <a href="https://github.com/0xNotAyu" target="_blank" rel="noopener noreferrer">github</a>
-          <a href="#" class="todo-link" data-label="linkedin">linkedin</a>
-          <a href="#" class="todo-link" data-label="email">email</a>
+          <a href="https://www.linkedin.com/in/aayush-sharma-0x/" target="_blank" rel="noopener noreferrer">linkedin</a>
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=aayush.sharma.0x@gmail.com" target="_blank" rel="noopener noreferrer">email</a>
         </div>
       </section>
 
     </main>
 
-    <footer class="site-footer reveal" style="--d:6">
+    <footer class="site-footer reveal" style="--d:5">
       <p>$ status <span class="dim">&mdash;quest</span> active</p>
     </footer>
 

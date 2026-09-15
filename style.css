@@ -281,6 +281,42 @@ a {
   font-size: 0.78rem;
 }
 
+/* row that holds the stack line + (optional) product button —
+   kept as its own wrapper on every node so spacing/height stays
+   consistent whether or not a button is present */
+.node-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  margin-top: 0.35rem;
+  min-height: 2rem;
+}
+
+.node-foot .stack {
+  margin: 0;
+}
+
+.node-cta {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent-border);
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  line-height: 2;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.node-cta:hover {
+  background: var(--color-accent-soft);
+  border-color: var(--color-accent);
+}
+
 .node code {
   font-family: var(--font-mono);
   background: var(--color-soft);
